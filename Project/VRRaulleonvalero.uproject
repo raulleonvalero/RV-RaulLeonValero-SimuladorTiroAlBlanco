@@ -1,0 +1,10 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "",
+	"Description": "Proyecto de ejemplo empleado en las clases de Realidad Virtual (Universidad Alicante - Ingeniería Multimedia)",
+	"TargetPlatforms": [
+		"Windows",
+		"WindowsNoEditor"
+	]
+}

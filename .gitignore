@@ -1,12 +1,8 @@
-# Ignorar por defecto todo
-*
+# Por defecto ignorar todo dentro de /Project
+/Project/*
 
-# ✅ Permitir lo importante
-!*.uproject
-!Config/
-!Content/
+# Pero permitir estas rutas específicas dentro de /Project
+!/Project/Config/
+!/Project/Content/
+!/Project/*.uproject
 
-# 🚫 Ignorar carpetas comunes de compilación y datos temporales
-DerivedDataCache/
-Intermediate/
-Saved/
