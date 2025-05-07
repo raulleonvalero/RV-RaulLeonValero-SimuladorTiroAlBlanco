@@ -1,0 +1,12 @@
+# Ignorar por defecto todo
+*
+
+# ✅ Permitir lo importante
+!*.uproject
+!Config/
+!Content/
+
+# 🚫 Ignorar carpetas comunes de compilación y datos temporales
+DerivedDataCache/
+Intermediate/
+Saved/
