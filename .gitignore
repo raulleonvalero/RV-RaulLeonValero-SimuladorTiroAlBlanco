@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 # Por defecto ignorar todo dentro de /Project
 /Project/*
+=======
+# Ignorar por defecto todo
+#*
+>>>>>>> 7d5ae9a1296144572661ba77dea015f5d7936398
 
 # Pero permitir estas rutas específicas dentro de /Project
 !/Project/Config/
