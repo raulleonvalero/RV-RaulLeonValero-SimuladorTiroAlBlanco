@@ -1,5 +1,5 @@
 # Ignorar por defecto todo
-*
+#*
 
 # ✅ Permitir lo importante
 !*.uproject
