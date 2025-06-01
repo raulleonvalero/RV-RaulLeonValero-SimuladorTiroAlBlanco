@@ -1,3 +1,4 @@
 *.apk filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
+Engine/** filter=lfs diff=lfs merge=lfs -text
