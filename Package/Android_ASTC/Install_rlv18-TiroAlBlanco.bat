@@ -1,7 +1,7 @@
 setlocal
 if NOT "%UE_SDKS_ROOT%"=="" (call %UE_SDKS_ROOT%\HostWin64\Android\SetupEnvironmentVars.bat)
 set ANDROIDHOME=%ANDROID_HOME%
-if "%ANDROIDHOME%"=="" set ANDROIDHOME=C:/android-sdk
+if "%ANDROIDHOME%"=="" set ANDROIDHOME=C:/Users/jorge/AppData/Local/Android/Sdk
 set ADB=%ANDROIDHOME%\platform-tools\adb.exe
 set AFS=.\win-x64\UnrealAndroidFileTool.exe
 set DEVICE=
@@ -12,7 +12,7 @@ for /f "delims=" %%A in ('%ADB% %DEVICE% shell "echo $EXTERNAL_STORAGE"') do @se
 %ADB% %DEVICE% uninstall com.rlv18.TiroAlBlanco
 @echo.
 @echo Installing existing application. Failures here indicate a problem with the device (connection or storage permissions) and are fatal.
-%ADB% %DEVICE% install VRRaulleonvalero-arm64.apk
+%ADB% %DEVICE% install VRRaulleonvalero-Android-Shipping-arm64.apk
 @if "%ERRORLEVEL%" NEQ "0" goto Error
 %ADB% %DEVICE% shell pm list packages com.rlv18.TiroAlBlanco
 
