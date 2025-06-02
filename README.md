@@ -10,7 +10,7 @@ Como jugar
 Controles
 
 Licencias
-Los sonidos utilizados en el proyecto pertenecen a estas licencias y estan ubicadas en estas carpetas
+Los sonidos utilizados en el proyecto pertenecen a estas licencias y estan ubicadas en estas carpetas dentro del repositorio
 modelosPropios/sonidos/404238__rafash1306__graznido-2.wav  
 by [rafash1306] is licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
 
@@ -27,8 +27,7 @@ modelosPropios/sonidos/79540__kyster__bell-02
 by [Kyster] is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 modelosPropios/sonidos/97980__oldedgar__winner-bell-game-show
-by [
-oldedgar] is licensed under CC BY 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+by [oldedgar] is licensed under CC BY 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
 
 modelosPropios/sonidos/709989__audiocoffee__funny-country-loop-ver
 by [AudioCoffee] is licensed under CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
