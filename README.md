@@ -11,6 +11,8 @@ Controles
 
 Licencias
 Los sonidos utilizados en el proyecto pertenecen a estas licencias y estan ubicadas en estas carpetas dentro del repositorio
+
+Project/Content/ModelosPropios/sonidos/404238__rafash1306__graznido-2.uaset
 modelosPropios/sonidos/404238__rafash1306__graznido-2.wav  
 by [rafash1306] is licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
 
