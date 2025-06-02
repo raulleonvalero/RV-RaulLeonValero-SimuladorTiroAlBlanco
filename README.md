@@ -56,3 +56,6 @@ Dificultades y soluciones
 Que compile en las gafas
 
 Siguientes pasos
+
+
+ENLACE A LOS PACKAGES TANTO DE WINDOWS COMO  DE ANDROID, PORNER RUTA A DRIVE
