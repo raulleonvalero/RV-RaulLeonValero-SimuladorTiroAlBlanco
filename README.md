@@ -1,5 +1,6 @@
 Simulador de Tiro al blanco en unreal engine
 
+Documentacion
 Descripcion de la experiencia
 Juego de realidad virtual desarrollado en Unreal Engine para la Universidad de Alicante, 
 donde encarnas a un vaquero y debes demostrar tu puntería usando hachas y revólveres para acertar en objetivos. 
@@ -42,4 +43,16 @@ by [AudioCoffee] is licensed under CC BY-NC 4.0 (https://creativecommons.org/lic
 
 Texturas/imagenes utilizadas
 Todas las imagenes utilizadas en el projecto han sido creadas con la ia de SORA de chatGpt
+Project/Content/ModelosPropios/controles.uasset
+Project/Content/ModelosPropios/forajido.uasset
+Project/Content/ModelosPropios/indicadorOro.uasset
+Project/Content/ModelosPropios/tiro.uasset
+Project/Content/ModelosPropios/puntuacion_ncl1_1.uasset
 
+
+Entrevista
+Descripción del proceso de creación
+Dificultades y soluciones
+Que compile en las gafas
+
+Siguientes pasos
