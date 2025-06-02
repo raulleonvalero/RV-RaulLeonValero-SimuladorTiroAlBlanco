@@ -12,24 +12,34 @@ Controles
 Licencias
 Los sonidos utilizados en el proyecto pertenecen a estas licencias y estan ubicadas en estas carpetas dentro del repositorio
 
-Project/Content/ModelosPropios/sonidos/404238__rafash1306__graznido-2.uaset
-modelosPropios/sonidos/404238__rafash1306__graznido-2.wav  
+Project/Content/ModelosPropios/sonidos/404238__rafash1306__graznido-2.uasset
+Version/formato original: 404238__rafash1306__graznido-2.wav  
 by [rafash1306] is licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
 
-modelosPropios/sonidos/317663__peacewaves__talking_rat
+Project/Content/ModelosPropios/sonidos/317663__peacewaves__talking_rat.uasset
+Version/formato original: 317663__peacewaves__talking_rat.wav 
 by [Peacewaves] is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
-modelosPropios/sonidos/472399__joseagudelo__16_raton_chillando
+Project/Content/ModelosPropios/sonidos/472399__joseagudelo__16_raton_chillando.uasset
+Version/formato original: 472399__joseagudelo__16_raton_chillando.wav 
 by [JoseAgudelo] is licensed under CC BY 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
 
-modelosPropios/sonidos/205517__everheat__axe_barrel1
+Project/Content/ModelosPropios/sonidos/205517__everheat__axe_barrel1.uasset
+Version/formato original: 205517__everheat__axe_barrel1.wav 
 by [EverHeat] is licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
 
-modelosPropios/sonidos/79540__kyster__bell-02
+Project/Content/ModelosPropios/sonidos/79540__kyster__bell-02.uasset
+Version/formato original: 79540__kyster__bell-02.wav
 by [Kyster] is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
-modelosPropios/sonidos/97980__oldedgar__winner-bell-game-show
+Project/Content/ModelosPropios/sonidos/97980__oldedgar__winner-bell-game-show.uasset
+Version/formato original: 97980__oldedgar__winner-bell-game-show.wav
 by [oldedgar] is licensed under CC BY 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
 
-modelosPropios/sonidos/709989__audiocoffee__funny-country-loop-ver
+Project/Content/ModelosPropios/sonidos/709989__audiocoffee__funny-country-loop-ver.uasset
+Version/formato original: 709989__audiocoffee__funny-country-loop-ver.wav
 by [AudioCoffee] is licensed under CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
+
+Texturas/imagenes utilizadas
+Todas las imagenes utilizadas en el projecto han sido creadas con la ia de SORA de chatGpt
+
