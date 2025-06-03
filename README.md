@@ -65,5 +65,6 @@ la apk esta dentro de la carpeta Andorid_ASTC y es el archivo **VRRaulleonvalero
 
 https://drive.google.com/drive/folders/1fnmnsdRfU8qhcwb7NNCSpk1Fe7wU-jcH?usp=sharing
 
-La version de windows se encuentra en este repositorio, en la carpeta package
+
+La version de windows se encuentra en este repositorio, en la carpeta package.
 
