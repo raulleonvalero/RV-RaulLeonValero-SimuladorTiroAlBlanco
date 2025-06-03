@@ -23,22 +23,40 @@ W ➡ Moverse hacia delante
 S ➡ Moverse hacia atras
 
 D ➡ Moverse hacia el lado derecho
+
 A ➡ Moverse hacia el lado izquierdo
+
 Q ➡ Moverse hacia arriba
+
 E ➡ Moverse hacia abajo
+
 Raton ➡ Rotar camara 
+
 R ➡ Coger objeto con la izquierda
+
 T ➡ Coger objeto con la derecha
+
 Y ➡ Lanzar objeto con la izquierda
+
 U ➡ Lanzar objeto con la derecha
+
+
 **Metaquest**
+
 B ➡ Para tocar la campana al colisionar la mano con ella
+
 joystick derecho ➡ rotar
+
 joystick izquierdo ➡ Moverse
+
 Gatillo izquierdo ➡ Coger objeto con la izquierda
+
 Gatillo derecho ➡ Coger objeto con la derecha
+
 X ➡ Lanzar objeto con la izquierda
+
 A ➡ Lanzar objeto con la derecha
+
 ![controles](https://github.com/user-attachments/assets/0914d9d8-d5c1-49d3-b7b8-2aead8ed5a95)
 
 ## Licencias
