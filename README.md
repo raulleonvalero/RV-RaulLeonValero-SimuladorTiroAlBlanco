@@ -15,9 +15,13 @@ ratas, patos y lingote de oro que estan situados en la zona de disparo, cuando t
 vuelve a pulsar la campana para subir la puntuacion al ranking y generar nuevos objetos y una nueva ronda.
 ### 🎛️ Controles
 **Ordenador**
+
 P ➡ Para tocar la campana al colisionar la mano con ella
+
 W ➡ Moverse hacia delante
+
 S ➡ Moverse hacia atras
+
 D ➡ Moverse hacia el lado derecho
 A ➡ Moverse hacia el lado izquierdo
 Q ➡ Moverse hacia arriba
