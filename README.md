@@ -60,4 +60,8 @@ Que compile en las gafas
 
 ## 📦 Builds
 ### 📂 Enlaces a los packages (Windows + Android)
-ENLACE A LOS PACKAGES TANTO DE WINDOWS COMO  DE ANDROID, PORNER RUTA A DRIVE
+Enlace a la carpeta donde tengo la apk de android para las metaquest 3, 
+la apk esta dentro de la carpeta Andorid_ASTC y es el archivo **VRRaulleonvalero-Android-Shipping-arm64.apk**
+https://drive.google.com/drive/folders/1fnmnsdRfU8qhcwb7NNCSpk1Fe7wU-jcH?usp=sharing
+La version de windows se encuentra en este repositorio, en la carpeta package
+
