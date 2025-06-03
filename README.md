@@ -7,8 +7,35 @@ donde encarnas a un vaquero y debes demostrar tu puntería usando hachas y revó
 Una experiencia inmersiva que combina acción y precisión en un entorno del Viejo Oeste.
 
 ## 🎮 ¿Cómo jugar?
-
+Empezaras en una sala con un mensaje explicativo que se resume en avanzar a la zona de disparo,
+Cuando estes en esa zona deberas tocar una campana(situada a la izquierda y de color amarillo)
+con la p en ordenador y con la B en las metaquest.
+Despues apareceran objetos cerca de la campana que podras coger y utilizar para lanzar a los muñecos,
+ratas, patos y lingote de oro que estan situados en la zona de disparo, cuando te quedes sin objetos,
+vuelve a pulsar la campana para subir la puntuacion al ranking y generar nuevos objetos y una nueva ronda.
 ### 🎛️ Controles
+**Ordenador**
+P ➡ Para tocar la campana al colisionar la mano con ella
+W ➡ Moverse hacia delante
+S ➡ Moverse hacia atras
+D ➡ Moverse hacia el lado derecho
+A ➡ Moverse hacia el lado izquierdo
+Q ➡ Moverse hacia arriba
+E ➡ Moverse hacia abajo
+Raton ➡ Rotar camara 
+R ➡ Coger objeto con la izquierda
+T ➡ Coger objeto con la derecha
+Y ➡ Lanzar objeto con la izquierda
+U ➡ Lanzar objeto con la derecha
+**Metaquest**
+B ➡ Para tocar la campana al colisionar la mano con ella
+joystick derecho ➡ rotar
+joystick izquierdo ➡ Moverse
+Gatillo izquierdo ➡ Coger objeto con la izquierda
+Gatillo derecho ➡ Coger objeto con la derecha
+X ➡ Lanzar objeto con la izquierda
+A ➡ Lanzar objeto con la derecha
+![controles](https://github.com/user-attachments/assets/0914d9d8-d5c1-49d3-b7b8-2aead8ed5a95)
 
 ## Licencias
 ### 📜 Licencias de sonidos
@@ -53,10 +80,29 @@ Project/Content/ModelosPropios/puntuacion_ncl1_1.uasset
 
 ## 🎤 Entrevista y proceso de desarrollo 
 ### 🛠️  Descripción del proceso de creación 
+Empeze usando el proyecto base proporcionado, cambie la configuración e hice mas ajustes.
+Cree mi mapa,mi nivel  y mi pawn, despues empece con la interaccion de agarrar objetos, donde use 
+las tags para crear varios objetos agarrables ademas de unas manos que representan los motion controllers
+y comprobando los begin y end overlaps y usando collisiones hice la iteracion de agarrar objetos con ambas manos.
+Despues hice que se pudieran lanzar los objetos o disparar dependiendo de si el objeto era hacha o pistola,
+hice un actor puntuacion que sumaba puntos cuando los actores colisionables recibian un golpe y un ranking 
+que usa un vector con las 5 maximas puntuaciones obtenidas.
+Luego implemente un flujo de juego para poder rejugar la experiencia, por lo que use
+un "boton" representado por una campana que al pulsarla genera las armas 2 pistolas, 3 hachas, 
+2 botellas y tres armas aleatorias entre estas 3 posibles.
+Hice varios objetos que dan puntos, el primero un muñeco de madera, luego una rata que se mueve por el espacio
+de forma aleatoria, tambien hice un pato que se desplaza horizontalmente y respaunea cada 15 segundos 
+y por ultimo hice un lingote de oro que da 100 puntos.
 ### 🧱 Dificultades encontradas 
-Que compile en las gafas
+Que compile en las gafas, he tenido problemas con la configuracion del proyecto ademas del plugin de metaXR 
+ya que en mi portatil crasheaba al meterlo en unreal y tuve que descargar todo en mi PC de sobremesa.
+Tuve dificultades en la implementacion del agarre de objetos ya que aveces se quedaban como que todavia los tenia
+agarrados cuando ya habian sido lanzados, pero ese problema fue resuelto.
 
 ### Siguientes pasos 
+Intentar meter mas objetos lanzables con diferentes mecanicas ademas de mas niveles o salas con diferentes
+objetos que puntuen, por ejemplo un sobrero que caiga del cielo o un vaso.
+Tambien meter una opcion de pausa o de reiniciar todo desde el principio.
 
 ## 📦 Builds
 ### 📂 Enlaces a los packages (Windows + Android)
