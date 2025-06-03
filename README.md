@@ -40,6 +40,8 @@ Y ➡ Lanzar objeto con la izquierda
 
 U ➡ Lanzar objeto con la derecha
 
+![CONTROLESteclado](https://github.com/user-attachments/assets/ea0a8347-b8e1-4881-a55d-ee0ac18f6349)
+
 
 **Metaquest**
 
