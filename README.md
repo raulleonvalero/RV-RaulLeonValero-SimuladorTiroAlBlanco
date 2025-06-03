@@ -1,16 +1,16 @@
-Simulador de Tiro al blanco en unreal engine
+🎯 Simulador de Tiro al Blanco en Realidad Virtual (Unreal Engine)
 
-Documentacion
-Descripcion de la experiencia
+📄 Documentación
+🕹️ Descripción de la experiencia
 Juego de realidad virtual desarrollado en Unreal Engine para la Universidad de Alicante, 
 donde encarnas a un vaquero y debes demostrar tu puntería usando hachas y revólveres para acertar en objetivos. 
 Una experiencia inmersiva que combina acción y precisión en un entorno del Viejo Oeste.
 
-Como jugar
+🎮 ¿Cómo jugar?
 
-Controles
+🎛️ Controles
 
-Licencias
+📜 Licencias de sonidos
 Los sonidos utilizados en el proyecto pertenecen a estas licencias y estan ubicadas en estas carpetas dentro del repositorio
 
 Project/Content/ModelosPropios/sonidos/404238__rafash1306__graznido-2.uasset
@@ -41,8 +41,8 @@ Project/Content/ModelosPropios/sonidos/709989__audiocoffee__funny-country-loop-v
 Version/formato original: 709989__audiocoffee__funny-country-loop-ver.wav
 by [AudioCoffee] is licensed under CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/)
 
-Texturas/imagenes utilizadas
-Todas las imagenes utilizadas en el projecto han sido creadas con la ia de SORA de chatGpt
+🖼️ Texturas e imágenes utilizadas
+Todas las imágenes utilizadas en este proyecto fueron generadas mediante IA de Sora (ChatGPT):
 Project/Content/ModelosPropios/controles.uasset
 Project/Content/ModelosPropios/forajido.uasset
 Project/Content/ModelosPropios/indicadorOro.uasset
@@ -50,12 +50,13 @@ Project/Content/ModelosPropios/tiro.uasset
 Project/Content/ModelosPropios/puntuacion_ncl1_1.uasset
 
 
-Entrevista
-Descripción del proceso de creación
-Dificultades y soluciones
+🎤 Entrevista y proceso de desarrollo
+🛠️ Descripción del proceso de creación
+🧱 Dificultades encontradas
 Que compile en las gafas
 
 Siguientes pasos
 
-
+📦 Builds
+📂 Enlaces a los packages (Windows + Android)
 ENLACE A LOS PACKAGES TANTO DE WINDOWS COMO  DE ANDROID, PORNER RUTA A DRIVE
