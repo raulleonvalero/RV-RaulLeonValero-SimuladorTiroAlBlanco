@@ -59,7 +59,8 @@ X ➡ Lanzar objeto con la izquierda
 
 A ➡ Lanzar objeto con la derecha
 
-![controles](https://github.com/user-attachments/assets/0914d9d8-d5c1-49d3-b7b8-2aead8ed5a95)
+![controles2](https://github.com/user-attachments/assets/f058d7d3-77d5-47e4-94f7-6b40ea73e95b)
+
 
 ## Licencias
 ### 📜 Licencias de sonidos
