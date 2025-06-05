@@ -3,16 +3,16 @@
 ## 📄 Documentación
 ### 🕹️ Descripción de la experiencia
 Juego de realidad virtual desarrollado en Unreal Engine para la Universidad de Alicante, 
-donde encarnas a un vaquero y debes demostrar tu puntería usando hachas y revólveres para acertar en objetivos. 
+donde tomas el control de un vaquero y debes demostrar tu puntería usando hachas y revólveres para acertar en objetivos. 
 Una experiencia inmersiva que combina acción y precisión en un entorno del Viejo Oeste.
 
 ## 🎮 ¿Cómo jugar?
-Empezaras en una sala con un mensaje explicativo que se resume en avanzar a la zona de disparo,
-Cuando estes en esa zona deberas tocar una campana(situada a la izquierda y de color amarillo)
-con la p en ordenador y con la B en las metaquest.
-Despues apareceran objetos cerca de la campana que podras coger y utilizar para lanzar a los muñecos,
-ratas, patos y lingote de oro que estan situados en la zona de disparo, cuando te quedes sin objetos,
-vuelve a pulsar la campana para subir la puntuacion al ranking y generar nuevos objetos y una nueva ronda.
+Comienzas en una sala con un mensaje explicativo que se resume en avanzar a la zona de disparo,
+en esta zona deberas tocar la campana (situada a la izquierda y de color amarillo)
+con la tecla p en ordenador y con el boton B en las metaquest.
+Después aparecerán objetos cerca de la campana que podrás coger y utilizar para lanzar a los muñecos,
+ratas, patos y lingote de oro que estan situados en la zona de disparo, cuando termines los objetos
+tienes que pulsar la campana para subir la puntuación al ranking y generar nuevos objetos y una nueva ronda.
 ### 🎛️ Controles
 **Ordenador**
 
@@ -111,33 +111,36 @@ Project/Content/ModelosPropios/puntuacion_ncl1_1.uasset
 
 ## 🎤 Entrevista y proceso de desarrollo 
 ### 🛠️  Descripción del proceso de creación 
-Empeze usando el proyecto base proporcionado, cambie la configuración e hice mas ajustes.
-Cree mi mapa,mi nivel  y mi pawn, despues empece con la interaccion de agarrar objetos, donde use 
-las tags para crear varios objetos agarrables ademas de unas manos que representan los motion controllers
-y comprobando los begin y end overlaps y usando collisiones hice la iteracion de agarrar objetos con ambas manos.
-Despues hice que se pudieran lanzar los objetos o disparar dependiendo de si el objeto era hacha o pistola,
-hice un actor puntuacion que sumaba puntos cuando los actores colisionables recibian un golpe y un ranking 
-que usa un vector con las 5 maximas puntuaciones obtenidas.
-Luego implemente un flujo de juego para poder rejugar la experiencia, por lo que use
-un "boton" representado por una campana que al pulsarla genera las armas 2 pistolas, 3 hachas, 
-2 botellas y tres armas aleatorias entre estas 3 posibles.
-Hice varios objetos que dan puntos, el primero un muñeco de madera, luego una rata que se mueve por el espacio
-de forma aleatoria, tambien hice un pato que se desplaza horizontalmente y respaunea cada 15 segundos 
-y por ultimo hice un lingote de oro que da 100 puntos.
-Por ultimo cambie el movimiento ya que lo tenia implementado para usarse con los joysticks, pero 
-ese tipo provoca mareos y no funcionaba, por lo que implemente el movimiento por teletransporte.
+Comencé usando el proyecto base proporcionado. Modifiqué la configuración inicial e hice varios ajustes adicionales.
+Creé mi mapa, mi nivel y mi pawn. Luego empecé a trabajar en la interacción para agarrar objetos, utilizando tags para identificar diferentes elementos agarrables. También diseñé unas manos que representan los motion controllers. Mediante el uso de Begin Overlap, End Overlap y colisiones, logré implementar la mecánica de agarre con ambas manos.
+
+Después añadí la posibilidad de lanzar los objetos o dispararlos, dependiendo de si se trataba de un hacha o una pistola. Implementé un actor de puntuación que suma puntos al detectar colisiones con ciertos actores, y creé un sistema de ranking que almacena las 5 puntuaciones más altas en un vector.
+
+También incorporé un flujo de juego para que se pueda rejugar la experiencia. Para esto, añadí un "botón" en forma de campana que, al pulsarlo, genera nuevas armas: 2 pistolas, 3 hachas, 2 botellas y 3 armas aleatorias entre estas opciones.
+
+Desarrollé varios objetos que otorgan puntos:
+
+Un muñeco de madera.
+
+Una rata que se mueve aleatoriamente por el espacio.
+
+Un pato que se desplaza horizontalmente y reaparece cada 15 segundos.
+
+Un lingote de oro que otorga 100 puntos.
+
+Por último, cambié el sistema de movimiento. Inicialmente usaba los joysticks, pero ese método generaba mareos y no funcionaba bien, así que implementé movimiento por teletransporte.
+
 ### 🧱 Dificultades encontradas 
-Que compile en las gafas, he tenido problemas con la configuracion del proyecto ademas del plugin de metaXR 
-ya que en mi portatil crasheaba al meterlo en unreal y tuve que descargar todo en mi PC de sobremesa.
-Tuve dificultades en la implementacion del agarre de objetos ya que aveces se quedaban como que todavia los tenia
-agarrados cuando ya habian sido lanzados, pero ese problema fue resuelto.
-En el teleport tuve porblemas porque me lo hacia por cada frame que la tecla estaba pulsada, pero lo solucione 
-rapido cambiando un ajuste del input mapping.
+Una de las principales dificultades fue lograr que el proyecto compilara correctamente en las gafas. Tuve problemas con la configuración del proyecto y con el plugin de MetaXR, ya que en mi portátil Unreal Engine se cerraba al intentar usarlo. Finalmente, tuve que descargar todo en mi PC de sobremesa para poder continuar.
+
+También encontré dificultades al implementar la mecánica de agarre de objetos, ya que a veces parecía que los objetos seguían agarrados incluso después de haber sido lanzados. Afortunadamente, ese problema se resolvió.
+
+En cuanto al teletransporte, tuve un problema porque se ejecutaba en cada frame mientras la tecla estaba pulsada, lo que causaba un comportamiento inesperado. Lo solucioné rápidamente ajustando la configuración del input mapping.
 
 ### Siguientes pasos 
-Intentar meter mas objetos lanzables con diferentes mecanicas ademas de mas niveles o salas con diferentes
-objetos que puntuen, por ejemplo un sobrero que caiga del cielo o un vaso.
-Tambien meter una opcion de pausa o de reiniciar todo desde el principio.
+Mi idea es añadir más objetos lanzables con diferentes mecánicas, así como más niveles o salas que contengan distintos tipos de objetos que otorguen puntos, como por ejemplo un sombrero que caiga del cielo o un vaso.
+
+También quiero implementar una opción para pausar el juego o reiniciar toda la experiencia desde el principio.
 
 ## 📦 Builds
 ### 📂 Enlaces a los packages (Windows + Android)
