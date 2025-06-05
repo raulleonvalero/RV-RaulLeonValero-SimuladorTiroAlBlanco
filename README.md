@@ -40,16 +40,22 @@ Y ➡ Lanzar objeto con la izquierda
 
 U ➡ Lanzar objeto con la derecha
 
-![CONTROLESteclado](https://github.com/user-attachments/assets/ea0a8347-b8e1-4881-a55d-ee0ac18f6349)
+L pressed ➡ Te teletransporta hacia donde apuntes
+
+L hold and released ➡ Activa y desactiva el dibujado del teletransporte,  
+este sigue funcionando pero no se vera donde apuntas
+
+![CONTROLESteclado](https://github.com/user-attachments/assets/c81d9b3b-d9eb-4cec-9eba-a9c74c5fe9ac)
 
 
 **Metaquest**
 
 B ➡ Para tocar la campana al colisionar la mano con ella
 
-joystick derecho ➡ rotar
+Y pressed ➡ Te teletransporta hacia donde apuntes
 
-joystick izquierdo ➡ Moverse
+Y hold and released ➡ Activa y desactiva el dibujado del teletransporte,  
+este sigue funcionando pero no se vera donde apuntas
 
 Gatillo izquierdo ➡ Coger objeto con la izquierda
 
@@ -59,7 +65,7 @@ X ➡ Lanzar objeto con la izquierda
 
 A ➡ Lanzar objeto con la derecha
 
-![controles2](https://github.com/user-attachments/assets/f058d7d3-77d5-47e4-94f7-6b40ea73e95b)
+![controles2](https://github.com/user-attachments/assets/22df3edf-3821-4dae-a812-5c4c3763e262)
 
 
 ## Licencias
@@ -118,11 +124,15 @@ un "boton" representado por una campana que al pulsarla genera las armas 2 pisto
 Hice varios objetos que dan puntos, el primero un muñeco de madera, luego una rata que se mueve por el espacio
 de forma aleatoria, tambien hice un pato que se desplaza horizontalmente y respaunea cada 15 segundos 
 y por ultimo hice un lingote de oro que da 100 puntos.
+Por ultimo cambie el movimiento ya que lo tenia implementado para usarse con los joysticks, pero 
+ese tipo provoca mareos y no funcionaba, por lo que implemente el movimiento por teletransporte.
 ### 🧱 Dificultades encontradas 
 Que compile en las gafas, he tenido problemas con la configuracion del proyecto ademas del plugin de metaXR 
 ya que en mi portatil crasheaba al meterlo en unreal y tuve que descargar todo en mi PC de sobremesa.
 Tuve dificultades en la implementacion del agarre de objetos ya que aveces se quedaban como que todavia los tenia
 agarrados cuando ya habian sido lanzados, pero ese problema fue resuelto.
+En el teleport tuve porblemas porque me lo hacia por cada frame que la tecla estaba pulsada, pero lo solucione 
+rapido cambiando un ajuste del input mapping.
 
 ### Siguientes pasos 
 Intentar meter mas objetos lanzables con diferentes mecanicas ademas de mas niveles o salas con diferentes
@@ -132,8 +142,8 @@ Tambien meter una opcion de pausa o de reiniciar todo desde el principio.
 ## 📦 Builds
 ### 📂 Enlaces a los packages (Windows + Android)
 Enlace a la carpeta donde tengo la apk de android para las metaquest 3, 
-la apk esta dentro de la carpeta Andorid_ASTC y es el archivo **VRRaulleonvalero-Android-Shipping-arm64.apk**
-https://drive.google.com/drive/folders/1fnmnsdRfU8qhcwb7NNCSpk1Fe7wU-jcH?usp=sharing
+la apk esta dentro de la carpeta Andorid_ASTC y es el archivo **VRRaulleonvalero2-Android-Shipping-arm64.apk**
+https://drive.google.com/drive/folders/1Q116fME9aPHxuUjuXSdlQN4b3g19lVBk?usp=sharing
 
 
 La version de windows se encuentra en este repositorio, en la carpeta package.
