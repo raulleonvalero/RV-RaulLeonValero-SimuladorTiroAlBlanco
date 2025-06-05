@@ -143,7 +143,7 @@ Tambien meter una opcion de pausa o de reiniciar todo desde el principio.
 ### 📂 Enlaces a los packages (Windows + Android)
 Enlace a la carpeta donde tengo la apk de android para las metaquest 3, 
 la apk esta dentro de la carpeta Andorid_ASTC y es el archivo **VRRaulleonvalero2-Android-Shipping-arm64.apk**
-https://drive.google.com/drive/folders/1Q116fME9aPHxuUjuXSdlQN4b3g19lVBk?usp=sharing
+https://drive.google.com/drive/folders/1-7WAXm9sBPl9ESp56xuHj0kMRs0pMTki?usp=sharing
 
 
 La version de windows se encuentra en este repositorio, en la carpeta package.
